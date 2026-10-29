@@ -1,54 +1,69 @@
 # Zomato Insights Dashboard – Power BI
 
-## Project Overview
-This project analyzes restaurant data using Microsoft Power BI. The dashboard provides a high-level view of restaurant distribution, cuisines, ratings, votes, table booking and online delivery.
+Documentation case study: Zomato Insights Dashboard project with PowerBI. The runnable project assets are not yet included in this repository.
 
-## Key Dashboard KPIs
-- Restaurants: **9,551**
-- Cuisines: **250**
-- Countries: **15**
-- Cities: **141**
-- Votes: **1M**
-- Average Rating: **2.89**
+[Setup](#local-installation--setup-guide) · [Architecture](#architecture--system-design-diagram) · [Detailed guide](PROJECT_GUIDE.md) · [Repository standard](docs/REPOSITORY_STANDARD.md)
 
-## Dashboard Components
-1. KPI cards
-2. Year selector
-3. Country slicer
-4. City-wise restaurant count
-5. Restaurant/cuisine count with average rating
-6. Table booking distribution
-7. Online delivery distribution
-8. Cuisine-wise restaurant count
+## Visuals
 
-## Source Data
-The source workbook contains restaurant-level location, cuisine, booking/delivery, price, votes, cost and rating fields.
+A captured application screenshot or demo recording is not included yet. See the architecture section and checked-in documentation below.
 
-## Workflow
+## Live Link / Demo
+
+Documentation-only checkout. No runnable dashboard/device demo or public deployment is included.
+
+## Key Features
+
+- Project explanation and workflow documentation.
+- A clear inventory of checked-in materials.
+- Dashboard/device implementation remains unavailable in this checkout; earlier package descriptions are retained in the detailed guide.
+
+## Tech Stack
+
+![Markdown](https://img.shields.io/badge/Markdown-334155?style=flat-square) ![Power BI](https://img.shields.io/badge/Power%20BI-334155?style=flat-square) ![Excel](https://img.shields.io/badge/Excel-334155?style=flat-square)
+
+Documented target tools; runnable assets are pending.
+
+## Architecture / System Design Diagram
+
 Source Excel → Data preparation → Power BI data model → Measures/KPIs → Visualizations → Slicers/filters → Validation → Documentation → GitHub
 
-## Repository Structure
-```text
-Zomato-Insights-Dashboard-project-with-PowerBI/
-├── README.md
-├── Zomato_Insights_Dashboard.pbix
-├── zomato_data.xlsx
-├── dashboard-preview.jpg
-└── docs/
-    ├── Project_Complete_Documentation.pdf
-    ├── Workflow_and_Architecture.pdf
-    ├── Zomato_Project_Analysis_and_Data_Dictionary.xlsx
-    ├── Interview_Explanation.md
-    └── Project_Workflow.md
+## Local Installation & Setup Guide
+
+```bash
+git clone https://github.com/harshakavali81-collab/Zomato-Insights-Dashboard-project-with-PowerBI.git
+cd Zomato-Insights-Dashboard-project-with-PowerBI
 ```
 
-## Tools
-- Microsoft Power BI
-- Microsoft Excel
-- Data modeling and visualization
-- DAX measures (where applicable)
+Read the project guide (asset not present in this checkout) and the available-file inventory (asset not present in this checkout). There is no runnable application in this checkout. Upload the original workbook/PBIX or firmware and required inputs before documenting an executable setup.
 
-## Portfolio / Interview Summary
-I developed a Zomato restaurant analytics dashboard in Power BI. I prepared restaurant-level data, modeled the required fields and created an interactive dashboard with KPIs, country/year filtering, city-wise restaurant counts, cuisine analysis, ratings, table booking and online delivery insights. The project is documented for reproducibility.
+## Challenges & Solutions
 
-> Note: Binary deliverables such as PBIX, XLSX, JPG and PDF are included in the downloadable project ZIP. The connected GitHub interface available in this session supports text-file commits but does not expose a binary upload operation for these files.
+**Repository organization:** this project uses its existing project-specific entry points. Keeping those paths stable avoids breaking imports, asset links and deployment commands while the documentation follows a shared format. Project-specific technical limitations and prior release evidence are retained in [Project guide](PROJECT_GUIDE.md).
+
+## Future Improvements
+
+- Add original project assets with documented redistribution rights.
+- Capture a real dashboard screenshot or hardware demonstration.
+- Validate the project from a fresh download and document exact prerequisites.
+
+## Scope and supporting evidence
+
+Consult [the detailed project guide](PROJECT_GUIDE.md) for data provenance, limitations, historical evaluation results and release notes. This documentation update does not certify production readiness or rerun application/model tests.
+
+## Repository Structure
+
+| Location | Purpose |
+| --- | --- |
+| `docs/` | Documentation |
+| `.github/` | Issue forms, PR template and automated checks |
+
+[Complete file inventory and workflow](docs/REPOSITORY_STANDARD.md). Runtime entry points retain their existing paths.
+
+## Workflow & Tracking
+
+Use the [bug and feature forms](https://github.com/harshakavali81-collab/Zomato-Insights-Dashboard-project-with-PowerBI/issues/new/choose) to define work with acceptance criteria. Keep tasks in Todo → In progress → Review → Done, and link a pull request with `Closes #<number>`. See [the maintenance workflow](docs/REPOSITORY_STANDARD.md#workflow).
+
+## License
+
+No root license file is present. Reuse rights need to be established before an open-source release; bundled papers, datasets and third-party assets may have separate terms.
